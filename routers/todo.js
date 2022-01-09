@@ -47,7 +47,6 @@ router.get('/:id', async(req, res) =>{
         res.send('Error : ' + err)
     }
 }) 
-
 router.patch('/:id', async(req, res) =>{
 
     Todo.init()

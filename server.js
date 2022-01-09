@@ -1,7 +1,7 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const cors = require('cors')
-const todoRouter = require('../backend/routers/todo')
+const todoRouter = require('./routers/todo')
 
 const url = "mongodb://localhost/TodoAppBD"
 
